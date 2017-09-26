@@ -13,7 +13,7 @@ before_install:
 - ./sfdx/install
 - export PATH=./sfdx/$(pwd):$PATH
 - sfdx update
-- sfdx force:auth:jwt:grant --clientid 3MVG9d8..z.hDcPJm8RDTPyzq1r_w13rFxIP8OGTQCqPVhcuEK76UtZlxI3jMT_eDkeqNtA8TLZQLMP3N1B4K
+- sfdx force:auth:jwt:grant --clientid 3MVG9d8..z.hDcPJm8RDTPyzq1vGSQO4UQ7.3kpbAX4ZRwiTyxyuDqxiK3c5eqhKCR9AH3_ws7eDLzWYEXTEp
   --jwtkeyfile assets/server.key --username ramya@warehousedx.com --setdefaultdevhubusername
   -a HubOrg
 script:
